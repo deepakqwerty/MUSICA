@@ -7,6 +7,46 @@ function getInputValue($name){
     echo $_POST[$Name];
   }
 }
+
+function sanitizeFormPassword($inputText) {
+  $inputText = strip_tags($inputText);
+  return $inputText;
+}
+function sanitizeFormUsername($inputText) {
+  $inputText = strip_tags($inputText);
+  $inputText = str_replace(" ","",$inputText);
+  return $inputText;
+}
+function santizeFormString($inputText) {
+  $inputText = strip_tags($inputText);
+  $inputText = str_replace(" ","",$inputText);
+  $inputText = ucfirst(strtolower($inputText));
+  return $inputText;
+}
+
+if(isset($_POST['loginButton'])) {
+
+}
+
+if(isset($_POST['registerButton'])) {
+  $username = sanitizeFormUsername($POST['username']);
+  
+  $firstname = sanitizeFormString($POST['firstName']);
+  
+  $lastname = sanitizeFormString($POST['lastName']);
+  
+  $email = sanitizeFormString($POST['email']);
+  
+  $email2 = sanitizeFormString($POST['email2']);
+  
+  $password = sanitizeFormString($POST['password']);
+  
+  $password2 = sanitizeFormString($POST['password2']);
+  
+  
+
+}
+  
 ?>
 <html>
 <head>
