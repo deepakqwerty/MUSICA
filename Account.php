@@ -1,5 +1,5 @@
 <?php
-    class Account{
+class Account {
 
     	private $con;
     	private $errorArray;
@@ -8,7 +8,6 @@
     		$this->errorArray = array();
     	}
     	
-    } 
     public function register($un, $fn, $ln, $em, $em2, $pw, $pw2)
     {
     	$this->validateUsername($un);
@@ -64,15 +63,37 @@
     		return;
     	}
     }
-
     
-
-
-
-
-
-
-
-
+    private function validateEmails($em, $em2) {
+        if($em != $em2) {
+            array_push($this->errorArray, "Your emails dont't match");
+            return;
+            
+        }
+        
+        if(!filter_var($em, FILTER_VALIDATE_EMAIL)) {
+            array_push($this->errorArray," Email is invalid");
+            return;
+        
+        }
+    
+    }
+    
+    private function validatePasswords($pw, $pw2) {
+        if($pw != $pw2) {
+            array_push($this->errorArray,"Your passwords don't match");
+            return;
+        }
+        if(preg_match('/[^A-Za-z0-9]/',$pw)) {
+            array_push($this->errorArray,"Your password can only contain numbers and letters");
+            return;
+        }
+        if(strlen($pw) > 30 || strlen($pw) < 5) {
+            array_push($this->errorArray,"Your password must be between 5 and 30 characters");
+            return;
+        }
+        
+    
+    }
 
 ?>
