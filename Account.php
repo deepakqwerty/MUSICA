@@ -9,12 +9,12 @@
     	}
     	
     } 
-    public fucntion register($un, $fn, $ln, $em, $em2, $pw, $pw2)
+    public function register($un, $fn, $ln, $em, $em2, $pw, $pw2)
     {
     	$this->validateUsername($un);
     	$this->validateFirstname($fn);
     	$this->validateLastname($ln);
-    	$this->validateEmails($e, $em2);
+    	$this->validateEmails($em, $em2);
     	$this->validatePassword($pw, $pw2);
 
     	if(empty($this->errorArray) == true){
