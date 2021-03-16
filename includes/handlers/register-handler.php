@@ -1,7 +1,5 @@
 <?php
 
-
-
 function validateUsername($un){
 }
 function validateFirstName($fn){
