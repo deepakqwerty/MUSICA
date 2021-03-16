@@ -10,7 +10,7 @@ function getInputValue($name){
 ?>
 <html>
 <head>
-  <title> Welcome to Musicly</title>
+  <title> Welcome to Musica</title>
 
   <link rel="stylesheet" type="text/css" href="assets/css/register.css">
 
@@ -20,8 +20,7 @@ function getInputValue($name){
 </head>
 <body>
 
-        <div id="background">
-
+    <div id="background">
         <div id="loginContainer">
             <div id ="inputContainer">
                 <form id="loginForm" action="register.php" method="post">
