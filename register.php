@@ -1,4 +1,5 @@
 <?php
+include("includes/config.php");
 include("includes/handlers/Account.php");
 $account = new Account();
 $account->register();
