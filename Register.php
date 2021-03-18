@@ -10,7 +10,7 @@ include("includes/handlers/login-handler.php");
 
 function getInputValue($name){
  if(isset($_POST[$name])){
-   echo $_POST[$Name];
+   echo $_POST[$name];
  }
 }
 ?>
