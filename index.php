@@ -64,7 +64,7 @@ if(isset($_SESSION['userLoggedIn'])) {
                 <div id="nowPlayingLeft">
                     <div class="content">
                         <span class="albumLink">
-                            <img src="https://www.google.com/img" class="albumArtwork" alt="albumPicture">
+                            <img src="assets/images/faded.jpg" class="albumArtwork" alt="albumPicture">
                         </span>
 
                         <div class="trackInfo">
