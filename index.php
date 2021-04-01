@@ -53,7 +53,7 @@ if(isset($_SESSION['userLoggedIn'])) {
                         </div>
 
                         <div class="navItem">
-                            <a href="uplaod.php" class="navItemLink">Upload</a>
+                            <a href="upload.php" class="navItemLink">Upload</a>
                         </div>
 
                     </div>
