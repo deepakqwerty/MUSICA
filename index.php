@@ -52,6 +52,10 @@ if(isset($_SESSION['userLoggedIn'])) {
                             <a href="profile.php" class="navItemLink">User Profile</a>
                         </div>
 
+                        <div class="navItem">
+                            <a href="uplaod.php" class="navItemLink">Upload</a>
+                        </div>
+
                     </div>
 
                 </nav>
