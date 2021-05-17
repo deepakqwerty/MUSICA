@@ -27,19 +27,18 @@
 			</div>
 
 			
-
 			<div class="navItem">
 				<span role="link" tabindex="0" onclick="openPage('settings.php')" class="navItemLink"><?php echo $userLoggedIn->getFirstAndLastName(); ?></span>
 			</div>
 
 			
-
-		</div>
-
-		<div>
 			<div class="navItem">
 				<span role="link" tabindex="0" onclick="openPage('upload.php')" class="navItemLink">Upload your music</span>
 			</div>
+			
+			<div class="navItem">
+				<span role="link" tabindex="0" onclick="openPage('theBigread.php')" class="navItemLink">The Big Reads</span>
+			</div
 		</div>
 
 	</nav>
