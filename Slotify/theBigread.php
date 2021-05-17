@@ -151,10 +151,10 @@ text-decoration: none;
                     
 
                     <div class="icons">
-                        <a href="https://www.google.co.in/"> <i class="fa fa-facebook"></i></a>
-                        <a href="https://www.google.co.in/"> <i class="fa fa-twitter"></i></a>
-                        <a href="https://www.google.co.in/"> <i class="fa fa-linkedin"></i></a>
-                        <a href="https://www.google.co.in/"> <i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.billboard.com%2Farticles%2Fnews%2F9572970%2Fweeks-biggest-winners-olivia-rodrigo-bts-taylor-swift%2F"> <i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/heranmamo?lang=en"> <i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/heran-mamo"> <i class="fa fa-linkedin"></i></a>
+                        <a href=""> <i class="fa fa-youtube"></i></a>
                     </div>
 
                 </div>
