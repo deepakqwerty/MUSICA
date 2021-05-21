@@ -43,6 +43,10 @@
 			<div class="navItem">
 				<span role="link" tabindex="0" onclick="openPage('map.html')" class="navItemLink"> Concerts/Shows nearby </span>
 			</div>
+			
+			<div class="navItem">
+				<span role="link" tabindex="0" onclick="openPage('know_your_artist.php')" class="navItemLink">Know Your Artist</span>
+			</div>
 
 		</div>
 
